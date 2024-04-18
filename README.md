@@ -1,9 +1,9 @@
 Cada uno realiza el testing de sus metodos
-Nicolas Sandoval: 
-Menu y los metodos para mostrar sismos ≥ 4.0 grados Richter
+Nicolas Sandoval:
+Metodo para mostrar el sismo más intenso
 
 Ignacio Valdebenito:
-Metodo para mostrar el sismo más intenso
+Menu y los metodos para mostrar sismos ≥ 4.0 grados Richter
 
 
 Fransheska Valenzuela:
