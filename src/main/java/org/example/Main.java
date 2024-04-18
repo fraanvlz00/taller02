@@ -54,17 +54,6 @@ public class Main {
         return numMayor;
     }
 
-    public static int mayoresCinco(double[][] sismos){
-        int contador = 0;
-        for (int i = 0; i < sismos.length; i++) {
-            for (int j = 0; j < sismos[i].length; j++) {
-                if (sismos[i][j] >= 4){
-                    contador++;
-                }
-            }
-        }
-        return contador;
-    }
 
     public static void sms (double[][] sismos){
         for (int i = 0; i < sismos.length; i++) {
