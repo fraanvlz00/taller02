@@ -65,5 +65,6 @@ public static int[] contarSismosGrado4(double[][] sismos) {
         }
 
         } while (opcion != 8);
+
     }
 }
