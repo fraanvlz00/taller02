@@ -12,6 +12,7 @@ public class Main {
         double[][] sismos = new double[filas][columnas];
         return sismos;
 
+
     }
 
 public static int[] contarSismosGrado4(double[][] sismos) {
