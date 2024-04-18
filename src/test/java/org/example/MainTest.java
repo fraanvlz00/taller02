@@ -19,4 +19,5 @@ class MainTest {
         assertArrayEquals(expected2, Main.contarSismosGrado4(sismos));
     }
 
+
 }

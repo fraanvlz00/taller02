@@ -11,6 +11,7 @@ public class Main {
     public static double[][] crearMatriz(int filas, int columnas) {
         double[][] sismos = new double[filas][columnas];
         return sismos;
+
     }
 
 public static int[] contarSismosGrado4(double[][] sismos) {
