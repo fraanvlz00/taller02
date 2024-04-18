@@ -18,4 +18,5 @@ class MainTest {
         int[] expected2 = {3, 3, 3};
         assertArrayEquals(expected2, Main.contarSismosGrado4(sismos));
     }
+
 }

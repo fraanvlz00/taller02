@@ -13,7 +13,6 @@ public class Main {
         return sismos;
     }
 
-
 public static int[] contarSismosGrado4(double[][] sismos) {
     int[] contadorPorDia = new int[sismos.length];
     for (int i = 0; i < sismos.length; i++) {
