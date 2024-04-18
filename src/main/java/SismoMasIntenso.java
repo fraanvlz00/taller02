@@ -1,8 +1,7 @@
 import java.util.Random;
-import java.util.Scanner;
 
 public class SismoMasIntenso {
-    private final double[][] lecturas;
+    public double[][] lecturas;
 
     public SismoMasIntenso(int dias) {
         lecturas = new double[dias][24];
@@ -34,12 +33,5 @@ public class SismoMasIntenso {
         }
         System.out.println("El día " + dia + ", a las " + hora + ":00, se registró el sismo más intenso, con un valor de " + max + " en la escala de Richter.");
     }
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Ingrese la cantidad de días a registrar (2≤ N ≤ 31): ");
-        int dias = scanner.nextInt();
-        SismoMasIntenso temucoSensor = new SismoMasIntenso(dias);
-        temucoSensor.MostrarSismoMasIntenso();
-        scanner.close();
-    }
+
 }
