@@ -3,12 +3,6 @@ package org.example;
 import java.util.Scanner;
 
 public class Parte3menu {
-    double[][] sismos;
-
-    Parte3menu(){
-        this.sismos = sismos;
-
-    }
 
     public static void dimensionArreglo(double[][] sismos, int dias){
         sismos = new double[dias][24];
@@ -27,5 +21,5 @@ public class Parte3menu {
 
 
 
-}
+
 
